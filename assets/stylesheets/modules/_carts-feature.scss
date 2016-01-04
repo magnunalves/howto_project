@@ -2,6 +2,8 @@
   @include display(flex);
   @include flex-wrap(wrap);
   @include justify-content(space-between);
+  margin-top: 70px;
+  
 }
 
 .card {
@@ -47,6 +49,7 @@
     font-size: 0.9em;
     line-height: 1.5em;
     padding: ($base-spacing / 2) ($base-spacing / 2);
+    
 
     p {
       margin: 0 0 ($base-spacing / 2);

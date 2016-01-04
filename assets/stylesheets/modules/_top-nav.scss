@@ -1,11 +1,15 @@
 header.navigation {
 
   background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 10);
+  
   min-height: $navigation-height;
   width: 100%;
   z-index: 999;
-  margin-bottom: 20px;
+  position: fixed;
+  box-shadow: 0 2px 30px darken($navigation-background, 10%);
+  position: fixed;
+
+
 
   .navigation-wrapper {
     @include clearfix;
@@ -254,10 +258,7 @@ header.navigation {
   // Search bar
 
   .search-bar {
-    $search-bar-border-color: $base-border-color;
-    $search-bar-border: 1px solid $search-bar-border-color;
-    $search-bar-background: lighten($search-bar-border-color, 10%);
-
+    
     float: left;
     padding: 0.85em 0.85em 0.7em 0.6em;
     width: 60%;
