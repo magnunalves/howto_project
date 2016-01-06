@@ -273,7 +273,7 @@ header.navigation {
             font-size: 1.8em; } }
       .hero .hero-inner .hero-copy p {
         color: white;
-        line-height: 1.4em;
+        line-height: 1.2em;
         margin: 0 auto 3em auto; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy p {
@@ -457,7 +457,7 @@ header.navigation {
     text-shadow: 5px 2px 10px #000; }
 
 .parallax-background {
-  background: url("http://www.aurum.com.br/wp-content/uploads/2014/03/gestao-estrategica-departamento-juridico.gif") repeat;
+  background: url("http://www.midiamax.com.br/sites/default/files/arquivos/noticias/2015/nov/concurso_0.jpg") repeat;
   background-position: top;
   background-size: cover;
   background-color: beige;
@@ -465,8 +465,7 @@ header.navigation {
   left: 0;
   position: absolute;
   top: -10em;
-  width: 100%;
-  opacity: #000; }
+  width: 100%; }
 
 .scroll-on-page {
   display: inline-block; }
@@ -504,6 +503,163 @@ header.navigation {
       width: 65.88078%; }
       .scroll-on-page article:last-child {
         margin-right: 0; } }
+
+.fade-in-element {
+  background: white;
+  border-radius: 3px;
+  border: 1px solid silver;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  line-height: 1.5em;
+  margin-bottom: 4em;
+  padding: 1.5em;
+  text-align: center;
+  width: 100%; }
+  .fade-in-element::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .fade-in-element p {
+    color: #333;
+    line-height: 1.5em; }
+
+.js-fade-element-hide {
+  opacity: 0; }
+
+.js-fade-element-show {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 1; }
+
+.hero__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 3px #fff solid;
+  color: #fff;
+  text-decoration: none; }
+  .hero__btn:hover {
+    background-color: #fff;
+    color: #000; }
+
+.modal label {
+  cursor: pointer;
+  margin-bottom: 0; }
+.modal label img {
+  border-radius: 280px;
+  display: block;
+  max-width: 560px; }
+.modal .modal-state {
+  display: none; }
+.modal .modal-trigger {
+  padding: 0.8em 1em; }
+.modal .modal-fade-screen {
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  padding-top: 0.6em;
+  text-align: left;
+  visibility: hidden;
+  z-index: 99999999999; }
+  @media screen and (min-width: 53.75em) {
+    .modal .modal-fade-screen {
+      padding-top: 10em; } }
+  .modal .modal-fade-screen .modal-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer; }
+.modal .modal-close {
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+  height: 2em;
+  width: 2em;
+  cursor: pointer; }
+  .modal .modal-close:after, .modal .modal-close:before {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 1.5em;
+    width: 0.15em;
+    background: #ddd;
+    content: '';
+    display: block;
+    margin: -3px 0 0 -1px; }
+  .modal .modal-close:hover:after, .modal .modal-close:hover:before {
+    background: #c4c4c4; }
+  .modal .modal-close:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+.modal .modal-inner {
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  border-radius: 3px;
+  margin-top: 0;
+  margin: auto;
+  max-height: 95%;
+  padding: 0.25em;
+  position: relative;
+  width: 95%; }
+  @media screen and (min-width: 40em) {
+    .modal .modal-inner {
+      max-height: 70%;
+      padding: 0.5em;
+      width: 60%; } }
+  @media screen and (min-width: 53.75em) {
+    .modal .modal-inner {
+      width: 50%; } }
+  .modal .modal-inner h1 {
+    color: #333;
+    text-align: left;
+    text-transform: capitalize; }
+  .modal .modal-inner p {
+    color: #333;
+    line-height: 1.5em; }
+  .modal .modal-inner .modal-intro {
+    margin-bottom: 1em; }
+  .modal .modal-inner .modal-content {
+    color: #333; }
+    @media screen and (min-width: 40em) {
+      .modal .modal-inner .modal-content {
+        -webkit-columns: 2 8em;
+        -moz-columns: 2 8em;
+        columns: 2 8em; } }
+  .modal .modal-inner a.cta {
+    color: white;
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-top: 1em; }
+    .modal .modal-inner a.cta:last-child {
+      padding: 0 2em; }
+.modal .modal-state:checked + .modal-fade-screen {
+  opacity: 1;
+  visibility: visible; }
+.modal .modal-state:checked + .modal-fade-screen .modal-inner {
+  top: 0.5em; }
+
+.modal-open {
+  overflow: hidden; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
