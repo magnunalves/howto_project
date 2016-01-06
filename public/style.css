@@ -281,6 +281,10 @@ header.navigation {
             max-width: 40%; } }
 
 .cards {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -305,16 +309,14 @@ header.navigation {
   justify-content: space-between;
   -ms-flex-pack: justify;
   margin-top: 70px; }
+  .cards:last-child {
+    margin-right: 0; }
 
 .card {
-  -webkit-flex-basis: 15em;
-  -moz-flex-basis: 15em;
-  flex-basis: 15em;
-  -ms-flex-preferred-size: 15em;
-  -webkit-flex-grow: 1;
-  -moz-flex-grow: 1;
-  flex-grow: 1;
-  -ms-flex-positive: 1;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -325,6 +327,8 @@ header.navigation {
   cursor: pointer;
   margin: 0 1em 1.5em 1em;
   position: relative; }
+  .card:last-child {
+    margin-right: 0; }
   .card .card-image {
     overflow: hidden;
     height: 150px;
