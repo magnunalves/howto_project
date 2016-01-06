@@ -8,7 +8,7 @@
 }
 
 .card {
-  @include span-columns(2);
+  @include span-columns(3);
  // @include flex-basis(15em);
  // @include flex-grow(1);
   @include transition (all 0.2s ease-in-out);

@@ -1,4 +1,5 @@
 .parallax-window {
+  @include span-columns(12);
   max-height: $parallax-window-height;
   overflow: hidden;
   position: relative;

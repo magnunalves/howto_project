@@ -6,6 +6,10 @@ html {
   box-sizing: inherit; }
 
 header.navigation {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   background-color: #333;
   min-height: 60px;
   width: 100%;
@@ -13,6 +17,8 @@ header.navigation {
   position: fixed;
   box-shadow: 0 2px 30px #1a1a1a;
   position: fixed; }
+  header.navigation:last-child {
+    margin-right: 0; }
   header.navigation .navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -234,6 +240,10 @@ header.navigation {
           display: block; } }
 
 .hero {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(-280deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background-color: #324766;
@@ -244,6 +254,8 @@ header.navigation {
   margin-bottom: 10px;
   position: relative;
   top: 60px; }
+  .hero:last-child {
+    margin-right: 0; }
   .hero .hero-logo img {
     height: 4em;
     margin-bottom: 1em; }
@@ -316,7 +328,7 @@ header.navigation {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 14.70196%;
+  width: 23.23176%;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -368,9 +380,15 @@ header.navigation {
       background-color: #f6f6f6; }
 
 .footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   background: #40526b;
   padding: 3em 1.618em;
   width: 100%; }
+  .footer:last-child {
+    margin-right: 0; }
   .footer .footer-logo {
     margin-bottom: 2em;
     text-align: center; }
@@ -438,12 +456,18 @@ header.navigation {
     text-align: center; }
 
 .parallax-window {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   max-height: 30em;
   overflow: hidden;
   position: relative;
   text-align: center;
   width: 100%;
   margin-bottom: 10px; }
+  .parallax-window:last-child {
+    margin-right: 0; }
 
 .parallax-static-content {
   color: #9A9A8A;
