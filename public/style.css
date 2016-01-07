@@ -337,7 +337,7 @@ header.navigation {
   border: 1px solid gainsboro;
   box-shadow: 0 2px 4px #e6e6e6;
   cursor: pointer;
-  margin: 0 1em 1.5em 1em;
+  margin: 0 0.5em 0.5em 0.5em;
   position: relative; }
   .card:last-child {
     margin-right: 0; }
@@ -363,13 +363,13 @@ header.navigation {
     border-radius: 3px 3px 0 0;
     font-weight: bold;
     line-height: 1.5em;
-    padding: 0.5em 0.75em; }
+    padding: 0.16667em 0.25em; }
   .card .card-copy {
     font-size: 0.9em;
     line-height: 1.5em;
-    padding: 0.75em 0.75em; }
+    padding: 0.25em 0.25em; }
     .card .card-copy p {
-      margin: 0 0 0.75em; }
+      margin: 0 0 0.25em; }
   .card:focus, .card:hover {
     cursor: pointer; }
     .card:focus img, .card:hover img {
@@ -385,7 +385,7 @@ header.navigation {
   margin-right: 2.35765%;
   width: 100%;
   background: #40526b;
-  padding: 3em 1.618em;
+  padding: 1em 1.618em;
   width: 100%; }
   .footer:last-child {
     margin-right: 0; }
@@ -418,7 +418,7 @@ header.navigation {
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-bottom: 1.5em; }
+    margin-bottom: 0.5em; }
   .footer ul {
     -webkit-flex-basis: 13em;
     -moz-flex-basis: 13em;
@@ -428,7 +428,7 @@ header.navigation {
     -moz-flex-shrink: 0;
     flex-shrink: 0;
     -ms-flex-negative: 0;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     padding: 0; }
   .footer li {
     line-height: 1.5em;
@@ -445,7 +445,7 @@ header.navigation {
     margin-bottom: 0.4em; }
   .footer hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 0 auto 1.5em;
+    margin: 0 auto 0.5em;
     width: 12em; }
   .footer p {
     color: rgba(255, 255, 255, 0.4);
@@ -511,11 +511,11 @@ header.navigation {
   .scroll-on-page .scroll-on-page-link {
     border-bottom: 1px solid rgba(71, 125, 202, 0.2);
     display: block;
-    margin-right: 1.5em;
+    margin-right: 0.5em;
     outline: none;
-    padding: 0.75em 0; }
+    padding: 0.25em 0; }
     .scroll-on-page .scroll-on-page-link:last-child {
-      margin-bottom: 1.5em; }
+      margin-bottom: 0.5em; }
   .scroll-on-page article h4 {
     margin: 0 0 0.5em 0; }
   .scroll-on-page article p {
@@ -539,7 +539,7 @@ header.navigation {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   line-height: 1.5em;
   margin-bottom: 4em;
-  padding: 1.5em;
+  padding: 0.5em;
   text-align: center;
   width: 100%; }
   .fade-in-element::after {
@@ -688,6 +688,20 @@ header.navigation {
 
 .modal-open {
   overflow: hidden; }
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  .video-wrapper embed,
+  .video-wrapper object,
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**

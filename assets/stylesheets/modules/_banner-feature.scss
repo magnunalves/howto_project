@@ -1,5 +1,5 @@
 .hero {  
-  @include span-columns(12);
+  @include span-columns(12); 
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
   background-color: #324766;
   background-position: top;
