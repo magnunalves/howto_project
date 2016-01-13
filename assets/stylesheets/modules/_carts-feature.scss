@@ -9,8 +9,8 @@
 
 .card {
   @include span-columns(3);
- // @include flex-basis(15em);
- // @include flex-grow(1);
+  //@include flex-basis(15em);
+  @include flex-grow(1);
   @include transition (all 0.2s ease-in-out);
   background-color: $card-background;
   border-radius: $base-border-radius;
@@ -24,7 +24,7 @@
   .card-image {
     overflow: hidden;
     height: 150px;
-    max-height: 150px;
+    //max-height: 150px;
     background-color: $card-image-hover-color;
 
     img {
@@ -46,10 +46,10 @@
     padding: ($base-spacing / 3) ($base-spacing / 2);
   }
 
-  .card-copy {
-    font-size: 0.9em;
-    line-height: 1.5em;
-    padding: ($base-spacing / 2) ($base-spacing / 2);
+    .card-copy {
+      font-size: 0.9em;
+      line-height: 1.5em;
+      padding: ($base-spacing / 2) ($base-spacing / 2);
     
 
     p {

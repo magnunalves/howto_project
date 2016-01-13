@@ -41,20 +41,6 @@ header.navigation {
     header.navigation .logo img {
       max-height: 60px;
       padding: 0.8em 0; }
-  header.navigation .navigation-menu-button {
-    color: rgba(255, 255, 255, 0.7);
-    display: block;
-    float: right;
-    line-height: 60px;
-    margin: 0;
-    padding-right: 1em;
-    text-decoration: none;
-    text-transform: uppercase; }
-    @media screen and (min-width: 53.75em) {
-      header.navigation .navigation-menu-button {
-        display: none; } }
-    header.navigation .navigation-menu-button:focus, header.navigation .navigation-menu-button:hover {
-      color: white; }
   header.navigation nav {
     float: none;
     min-height: 60px;
@@ -77,6 +63,20 @@ header.navigation {
         display: inline;
         margin: 0;
         padding: 0; } }
+  header.navigation .navigation-menu-button {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    float: right;
+    line-height: 60px;
+    margin: 0;
+    padding-right: 1em;
+    text-decoration: none;
+    text-transform: uppercase; }
+    @media screen and (min-width: 53.75em) {
+      header.navigation .navigation-menu-button {
+        display: none; } }
+    header.navigation .navigation-menu-button:focus, header.navigation .navigation-menu-button:hover {
+      color: white; }
   header.navigation ul li.nav-link {
     background: #333;
     display: block;
@@ -329,6 +329,10 @@ header.navigation {
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  flex-grow: 1;
+  -ms-flex-positive: 1;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -344,7 +348,6 @@ header.navigation {
   .card .card-image {
     overflow: hidden;
     height: 150px;
-    max-height: 150px;
     background-color: #A9A9A9; }
     .card .card-image img {
       -webkit-transition: all 0.2s ease-in-out;

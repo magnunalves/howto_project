@@ -32,27 +32,8 @@ header.navigation {
 
   // Mobile view
 
-  .navigation-menu-button {
-    color: $navigation-color;
-    display: block;
-    float: right;
-    line-height: $navigation-height;
-    margin: 0;
-    padding-right: 1em;
-    text-decoration: none;
-    text-transform: uppercase;
 
-    @include media ($horizontal-bar-mode) {
-      display: none;
-    }
-
-    &:focus,
-    &:hover {
-      color: $navigation-color-hover;
-    }
-  }
-
-  // Nav menu
+// Nav menu
 
   nav {
     float: none;
@@ -81,6 +62,27 @@ header.navigation {
       display: inline;
       margin: 0;
       padding: 0;
+    }
+  }
+
+
+.navigation-menu-button {
+    color: $navigation-color;
+    display: block;
+    float: right;
+    line-height: $navigation-height;
+    margin: 0;
+    padding-right: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    @include media ($horizontal-bar-mode) {
+      display: none;
+    }
+
+    &:focus,
+    &:hover {
+      color: $navigation-color-hover;
     }
   }
 

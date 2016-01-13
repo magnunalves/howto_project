@@ -1,0 +1,27 @@
+
+
+@include hidpi(2.0) {
+  width: 20em;
+
+
+//############## Card's ##############
+  	  .card {
+  	  @include span-columns(12);
+  	  
+  	}
+
+	  .card {
+	  @include span-columns(11);
+	  margin: 0 auto;
+	}
+	p {
+    font-size: 0.7em;
+    line-height: 1em;
+    }
+
+    .card-image {
+    	height: 700px;
+    	//max-height: 400px;
+    }
+
+}

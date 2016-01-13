@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  width: 20em;
+  .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .card:last-child {
+      margin-right: 0; }
+
+  .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin: 0 auto; }
+    .card:last-child {
+      margin-right: 0; }
+
+  p {
+    font-size: 0.7em;
+    line-height: 1em; }
+
+  .card-image {
+    height: 700px; } }
+
+/*# sourceMappingURL=mobi_style.css.map */
